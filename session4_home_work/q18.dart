@@ -11,9 +11,9 @@ void main() {
 
   environmentVariables['ENV'] = environmentVariables['ENV'] ?? 'dev';
   environmentVariables['API_KEY'] =
-      environmentVariables['API_KEY'] ?? 'DEFAULT_KEY';
+  environmentVariables['API_KEY'] ?? 'DEFAULT_KEY';
   environmentVariables['DB_HOST'] =
-      environmentVariables['DB_HOST'] ?? '127.0.0.1';
+  environmentVariables['DB_HOST'] ?? '127.0.0.1';
 
   print(environmentVariables['ENV'].toUpperCase());
   print(environmentVariables['API_KEY'].toUpperCase());
