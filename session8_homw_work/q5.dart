@@ -13,6 +13,7 @@ void main() {
   int max = numbers[0];
   int secondMax = -999999999;
 
+
   for (var i = 1; i < numbers.length; i++) {
     if (numbers[i] > max) {
       secondMax = max;     
